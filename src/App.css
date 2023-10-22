@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-bc-color);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 90px;
+}
+
+:root {
+  --all-text-color: #000;
+  --card-bacground: #fff;
+  --header-bacground: #fff;
+  --title-color: red;
+  --body-bc-color:#fff;
+}
+
+.container {
+  width: inherit;
+  max-width: 1380;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.header {
+  box-shadow: 0px 2px 9px 0px #0000000e;
+  padding-top: 27px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--header-bacground);
+}
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  list-style: 1;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 40px;
+}
+
+.card {
+  color: var(--all-text-color);
+  text-align: center;
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: var(--card-bacground);
+}
+.card p{
+  font-size: 20px;
+}
+.card h1{
+  font-size: 28px;
+  font-weight: 600;
+}
+.mode{
+  --all-text-color: #fff;
+  --card-bacground:#2b3844;
+  --header-bacground:#2b3844;
+  --title-color:  white;
+  --body-bc-color:#202c36;
+}
